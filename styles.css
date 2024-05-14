@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+body{
+    background-image: url(./Assets/fondomario.jpeg);
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    width: 500px;
+    background-color: #01AEFC;
+    opacity: 95%;
+    border: 2px solid rgb(3, 36, 106);
+    border-radius: 20px;
+    padding: 7px;
+}
+
+h2{
+    border: 1px solid rgb(13, 13, 13);
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#palabra{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.letra{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(2, 3, 2);
+    text-align: center;
+    margin: 4px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.pintar{
+    background-color: rgba(4, 213, 14, 0.898);
+}
+
+.pintarError{
+    background-color: red;
+}
+
+h3{
+    margin: 4px 0;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h3 span{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button{
+    display: block;
+    width: fit-content;
+    margin: 15px auto;
+    background-color: rgba(0, 3, 188, 0.867);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+}
